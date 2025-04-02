@@ -1,0 +1,7 @@
+services:
+  memegen:
+    build:
+      context: .
+      dockerfile: Containerfile	
+    ports:
+      - "5001:5000"
