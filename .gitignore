@@ -29,3 +29,6 @@ htmlcov/
 /site/
 
 .codegpt
+
+# macOS system files
+**/.DS_Store
