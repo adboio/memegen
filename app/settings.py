@@ -9,7 +9,12 @@ PLACEHOLDER = "string"  # Swagger UI placeholder value
 
 DEBUG = os.environ.get("DEBUG", "false") == "true"
 
-if "DOMAIN" in os.environ:  # staging / production
+if "RENDER_EXTERNAL_URL" in os.environ: # render self-host
+    full_url = os.environ["RENDER_EXTERNAL_URL"].rstrip("/")
+    SERVER_NAME = full_url.replace("https://", "").replace("http://", "")
+    SCHEME = "https" if full_url.startswith("https") else "http"
+    RELEASE_STAGE = "staging" if "staging" in SERVER_NAME else "production"
+elif "DOMAIN" in os.environ:  # staging / production
     SERVER_NAME = os.environ["DOMAIN"]
     RELEASE_STAGE = "staging" if "staging" in SERVER_NAME else "production"
     SCHEME = "https"
