@@ -1,7 +1,9 @@
 name: Daily Struggle
 source: https://knowyourmeme.com/memes/daily-struggle
 keywords:
-  -
+  - button
+  - buttons
+  - sweating button
 text:
   - style: none
     color: black
