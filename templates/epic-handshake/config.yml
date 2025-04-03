@@ -1,0 +1,53 @@
+name: Epic Handshake
+source: https://knowyourmeme.com/memes/epic-handshake
+keywords:
+  - handshake
+  - flex
+  - agreement
+  - muscles
+  - black arm
+  - white arm
+text:
+  # 1. Left arm ("adam")
+  - style: default
+    color: white
+    font: thick
+    anchor_x: 0.05
+    anchor_y: 0.58
+    angle: -12.0
+    scale_x: 0.40
+    scale_y: 0.11
+    align: center
+    start: 0.0
+    stop: 1.0
+
+  # 2. Right arm ("margo")
+  - style: default
+    color: white
+    font: thick
+    anchor_x: 0.65
+    anchor_y: 0.50
+    angle: 12.0
+    scale_x: 0.35
+    scale_y: 0.11
+    align: center
+    start: 0.0
+    stop: 1.0
+
+  # 3. Shared center ("Riding bill’s face")
+  - style: default
+    color: white
+    font: thick
+    anchor_x: 0.15
+    anchor_y: 0.10
+    angle: 0.0
+    scale_x: 0.50
+    scale_y: 0.15
+    align: center
+    start: 0.0
+    stop: 1.0
+
+example:
+  - Margo
+  - Adam
+  - Riding bill's face

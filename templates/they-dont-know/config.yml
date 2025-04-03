@@ -1,0 +1,34 @@
+name: They Don't Know
+source: https://knowyourmeme.com/memes/epic-handshake
+keywords:
+  - they don't know
+  - wojack
+  - wojak
+  - npc
+text:
+  - style: default
+    color: white
+    font: thick
+    anchor_x: 0.25
+    anchor_y: 0.05
+    angle: 0.0
+    scale_x: 0.65
+    scale_y: 0.20
+    align: center
+    start: 0.0
+    stop: 1.0
+  - style: default
+    color: white
+    font: thick
+    anchor_x: 0.0
+    anchor_y: 0.8
+    angle: 0.0
+    scale_x: 1.0
+    scale_y: 0.2
+    align: center
+    start: 0.0
+    stop: 1.0
+
+example:
+  - They don't know I vibe coded this
+  - We literally all know

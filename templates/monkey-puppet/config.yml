@@ -1,0 +1,20 @@
+name: Awkward Look Monkey Puppet
+source: https://knowyourmeme.com/memes/awkward-look-monkey-puppet
+keywords:
+  - awkward
+  - side eye
+  - monkey puppet
+text:
+  - style: default
+    color: black
+    font: thick
+    anchor_x: 0.0
+    anchor_y: 0.05
+    angle: 0.0
+    scale_x: 1.0
+    scale_y: 0.35
+    align: center
+    start: 0.0
+    stop: 1.0
+example:
+  - when you vibe coded too hard and your api keys are somehow on reddit
